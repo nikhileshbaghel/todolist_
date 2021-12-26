@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="todo_css.css">
+    <title>aboutpage</title>
+  </head>
+  <body>
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="todoapp.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:nikhileshbaghel123@gmail.com">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"></a>
+        </li>
+      </ul>
+      
+      <h1>FEATURES OF TO DO LIST:</h1>
+      <div style="margin: 10%;">
+          <li>you can add new list of items in your list.</li>
+          <li>you can remove the item from the list</li>
+          <li>you can keep track to do your work effectively</li>
+      </div>
+      
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="height: 40%; width: 80%; align-items: center; margin: 10%;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+            <img src="https://desktime.com/blog/wp-content/uploads/2021/03/feature-800x553.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item active" data-bs-interval="10000" >
+            <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="http://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/06/Python-Remove-from-Lists.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+</body>
+
+</html>
